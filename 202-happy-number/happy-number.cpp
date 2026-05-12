@@ -12,12 +12,12 @@ public:
 
                 int rem = n % 10;
 
-                happynum += pow(rem,2);
+                happynum += pow(rem, 2);
 
                 n = n / 10;
             }
 
-            if(happynum == 4) { //why coz 4 is not a happy number if it comes
+            if(happynum == 4) {
                 return false;
             }
 
