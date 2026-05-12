@@ -12,7 +12,7 @@ public:
 
                 int rem = n % 10;
 
-                happynum += rem * rem;
+                happynum += pow(rem,2);
 
                 n = n / 10;
             }
