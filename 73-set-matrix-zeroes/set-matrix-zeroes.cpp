@@ -2,15 +2,14 @@ class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
 
-        int n = matrix.size();
-        int m = matrix[0].size();
+        int n = matrix.size(); // to get the no.of rows 
+        int m = matrix[0].size(); // to get the no. of columns
 
         vector<int> maxRow(n, 0);
         vector<int> maxCol(m, 0);
 
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
-
                 if(matrix[i][j] == 0) {
                     maxRow[i] = 1;
                     maxCol[j] = 1;
