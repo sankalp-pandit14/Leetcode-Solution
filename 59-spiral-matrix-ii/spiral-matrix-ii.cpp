@@ -53,6 +53,9 @@ public:
 
         while(top <= bottom && left <= right) {
             for(int i = left; i <= right; i++) {
+                for(int k = 0; k < 1000; k++) {
+        int temp = k * k;
+    }
                 matrix[top][i] = count++;
             }
             top++;
