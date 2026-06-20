@@ -5,11 +5,8 @@ public:
         int maxi=0;
         int sum=0;
         for(int i=0;i<n;i++){
-         maxi= max(maxi,sum);
-         sum+=gain[i];
-           
-        }
-         maxi= max(maxi,sum);
+        sum+=gain[i];
+         maxi= max(maxi,sum);}
         return maxi;
     }
 };
