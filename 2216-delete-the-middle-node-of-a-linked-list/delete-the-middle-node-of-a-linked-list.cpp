@@ -22,6 +22,6 @@ public:
             fast= fast->next->next;
         }
         prev->next= slow->next;      // this moves the rest 
-        return head; // as head start from the start of the link 
+        return head; // simplehai hum start krte h head aur jaise ki head  me koi change nhi hai aur hum prev ka connection chNGE KRRE H JO SLOW KA NEXT ME SE CONNECT HO JAT Hai to jab me head return krra hu to wo pura  new link ke saath return krra h which is there in memory address 
     }
 };
