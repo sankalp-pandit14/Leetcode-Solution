@@ -18,7 +18,7 @@ public:
     }
 
     vector<string> generateParenthesis(int n) {
-        ans.clear();
+        // ans.clear();
         f("", 0, 0, n);
         return ans;
     }
