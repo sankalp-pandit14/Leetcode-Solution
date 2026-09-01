@@ -48,6 +48,7 @@ public:
         for(int i = 1; i <= nonprime; i++) {
             ans2 = ans2 * i % MOD;
         }
+
         return (ans1 * ans2) % MOD;
     }
 };
