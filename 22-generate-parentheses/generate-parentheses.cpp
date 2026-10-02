@@ -18,7 +18,7 @@ public:
     }
 
     vector<string> generateParenthesis(int n) {
-        // ans.clear();
+        // ans.clear();         this is written only for cases when i firstly put input as n=2 then it will print (()), ()() and then when i give input as 3 it wont remove the previous 2 but also add it tthats why.
         f("", 0, 0, n);
         return ans;
     }
